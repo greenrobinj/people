@@ -1,0 +1,6 @@
+<h1>People</h1>
+<% @peoples.each do |people| %>
+ 
+  <h2><%= link_to "#{people.name}", person_path(people) %></h2>
+
+<% end %>
